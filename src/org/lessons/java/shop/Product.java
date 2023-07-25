@@ -22,7 +22,7 @@ In base alla risposta, calcolare il totale del carrello come somma dei prezzi ba
 
 public class Product {
 
-    // DATA
+    // FIELDS
     private int code;
     private String name;
     private String description;
@@ -87,6 +87,7 @@ public class Product {
         double vatPrice = price * vat / 100;
         return price + vatPrice;
     }
+    
 
     public String calcCode(){
         String codeString = Integer.toString(code);
