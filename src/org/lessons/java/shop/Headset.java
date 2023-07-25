@@ -1,6 +1,6 @@
 package org.lessons.java.shop;
 
-public class Headphones extends Product{
+public class Headset extends Product{
 
     // FIELDS
     String color;
@@ -8,7 +8,7 @@ public class Headphones extends Product{
 
 
     // CONSTRUCTORS
-    public Headphones(int code, String name, String description, double price, int vat, String color, boolean wireless) {
+    public Headset(int code, String name, String description, double price, int vat, String color, boolean wireless) {
         super(code, name, description, price, vat);
         this.color = color;
         this.wireless = wireless;
